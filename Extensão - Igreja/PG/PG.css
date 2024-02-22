@@ -1,0 +1,230 @@
+.flex {
+    display: flex;
+    background-color: rgb(150, 172, 150);
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 60vh;
+    align-items: center;
+}
+
+.flex-filho {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 60%;
+    width: 55%;
+    text-align: center;
+    margin: 3%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.barra {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 10%;
+    height: 60%;
+    border-bottom: 3px solid black;
+    width: 90%;
+}
+
+.image {
+    background-color: gray;
+    height: 80%;
+    width: 30%;
+    border: 2px solid black;
+    background-image: url(https://i.scdn.co/image/ab67616100005174f47255043b98873b2e85226e);
+    background-size: cover;
+}
+
+.description {
+    margin-left: 5%;
+    background-color: lightgray;
+    border: 2px solid black;
+    width: 70%;
+    height: 80%;
+    color: black;
+}
+
+.description h3 {
+    height: 5%;
+    margin-top: 0;
+    padding-top: 1%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.description p {
+    text-align: justify;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+.detalhes {
+    position: relative;
+    height: 0;
+    margin-left: -63%;
+    bottom: 10%;
+    text-align: left;
+    font-size: large
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=PT+Sans:ital@1&family=Poppins:wght@300&family=Sigmar&family=Vina+Sans&display=swap');
+
+
+
+
+footer {
+    color: #fff;
+    background-image: linear-gradient(to bottom, #070608, #06230d);
+    position: relative;
+    font-size: 0.8rem;
+    padding: 2%;
+}
+
+.main {
+    /* padding: 20px; */
+    display: grid;
+    gap: 5%;
+    grid-template-columns: 1fr;
+}
+
+
+.footer-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-header h3 {
+    font-size: 1rem;
+}
+
+.contato {
+    margin-top: -30px;
+    font-size: 1em;
+}
+
+.office-des {
+    display: block;
+    flex-direction: column;
+    text-align: center;
+}
+
+.office a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+.office a:hover {
+    color: #06230d;
+}
+
+.link-des {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.link-des a {
+    padding-top: 2%;
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.link-des a:hover {
+    color: #8de6a2;
+    transition: linear 0.3s;
+}
+
+.ri-arrow-right-line {
+    margin-left: 0;
+}
+
+.icons a {
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 50%;
+    align-items: center;
+    font-size: 1.1rem;
+    margin: 2%;
+}
+
+.social-icon {
+    position: relative;
+    top: 2px;
+}
+
+.icons a:hover {
+    color: #fff;
+    background-color: #06230d;
+    border-color: #06230d;
+}
+
+.newsletter-des {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.icons {
+    display: flex;
+    gap: 10px;
+    padding-right: 10%;
+}
+
+
+.copyright-area {
+    width: 100%;
+    grid-column: 1/4;
+}
+
+.copyright-area p {
+    width: 100%;
+    grid-column: 1/4;
+    text-align: center;
+}
+
+@media (max-width: 720px){
+
+    .flex-filho {
+        height: 60%;
+        width: 85%;
+    }
+}
+
+@media (max-width: 600px){
+
+    .flex {
+        height: 67vh;
+    }
+
+    .flex-filho {
+        height: 60%;
+        width: 95%;
+    }
+
+    .detalhes {
+        margin-left: -53%;
+    }
+    #info {
+        font-size: small;
+    }
+
+}

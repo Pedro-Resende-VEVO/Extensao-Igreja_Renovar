@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="teste.js"></script>
+</body>
+
+<body>
+    <header>
+        <nav class="navi">
+            <img src="images/logo-branca2.jpg" alt="Logo-Renovar-Branca" class="logo">
+        </nav>
+
+        <div class="links-navbar">
+            <ul class="nav-list">
+                <li id="ativado" class="links"><a href="/Menu/index.html">Postagens</a></li>
+                <li><a href="/Horários/horarios.html" class="links">Horários</a></li>
+                <li><a href="/PG/PG.html" class="links">Nossos PGs</a></li>
+                <li><a href="" class="links">Seja Membro</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="bemvindo">
+            <div class="box effect1">
+                <div>
+                    <h1>
+                        <u>
+                            Bem Vindo a Igreja Renovar!!
+                        </u>
+                    </h1>
+                </div>
+                <p>
+                    Nossa visão é um crescimento para fora, no sentido de fazer
+                    diferença na comunidade enquanto penetra em todos os campos da sociedade, deixando a marca do sal e da
+                    luz do Senhor Jesus. <br><br>
+
+                    Buscamos ser uma igreja espiritualmente vibrante, em que nossos membros definitivamente são cristãos genuínos, pois não apenas frequentam cultos e ouvem boas mensagens, mas também servem com toda energia e se envolvem de todo o coração.  <br><br>
+                </p>
+
+
+            </div>
+        </div>
+        <!-- <button onclick="getPost()">OI</button> -->
+        <div id="postagens">
+
+            <!-- <div class="expandable-box">
+                <h2 style="text-align: center;">Publicação 6</h2>
+                <hr>
+                <img src="https://source.unsplash.com/random/250x250?sig=1">
+                <p id="desc">Descrição</p>
+            </div> -->
+        </div>
+
+    </main>
+    <footer class="footer-sec">
+        <div class="main">
+            <div class="link row">
+                <div class="footer-header">
+                    <h3>INFORMAÇÕES</h3>
+                </div>
+                <div class="link-des">
+                    <a href="#" class="footer-links">ENDEREÇO: <br><span id="info">Rua coração de Estudante - 10 - Moradas da Lapinha - Lagoa Santa - MG</span></a>
+                    <a href="#" class="footer-links">EMAIL: <br><span id="info">igrejarenovaroficial@gmail.com</span></a>
+                </div>
+            </div>
+            <div class="office row">
+                <div class="footer-header">
+                    <h3>QRCODE</h3>
+                </div>
+                <div class="office-des">
+                    <img id="qrcode" width="100rem"
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Link_pra_pagina_principal_da_Wikipedia-PT_em_codigo_QR_b.svg/1200px-Link_pra_pagina_principal_da_Wikipedia-PT_em_codigo_QR_b.svg.png">
+                </div>
+            </div>
+            <div class="newsletter-des">
+                <div class="footer-header">
+                    <h3 class="contato">Contact Us</h3>
+                </div>
+                <div class="icons">
+                    <a href="#"><i class="social-icon ri-mail-fill"></i></a>
+                    <a href="#"><i class="social-icon ri-instagram-line"></i></a>
+                    <a href="#"><i class="social-icon ri-github-line"></i></a>
+                </div>
+            </div>
+            <div class="copyright-area">
+                <hr>
+                <div class="copyright">
+                    <p>PUC SI/ 816360 &copy; 2023. Todos os direitos reservados.</p>
+                </div>
+            </div>
+    </footer>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-database.js"></script>
+    <script src="BD.js"></script>
+</body>
+
+</html>

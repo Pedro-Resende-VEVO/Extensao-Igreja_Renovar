@@ -1,0 +1,181 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*--------------------------- Nav Bar--------------------------------- */
+.links {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+    background-color: white;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+a:hover {
+    color: rgb(5, 187, 5);
+}
+
+.logo {
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    height: 18vh;
+    border-bottom: 2px solid black;
+}
+
+
+.links-navbar ul {
+    justify-content: center;
+    display: flex;
+    height: 40px;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+    background-color: rgb(150, 172, 150);
+    
+    
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.nav-list li a {
+    padding: 10px 25px;
+    border-top: 0px;
+    border-radius: 25px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    border: 2px solid black;
+    border-top: 0px;
+}
+
+#ativado {
+    display: flex;
+    background: rgb(3, 58, 3);
+    border-radius: 25px;
+    border-top: 0px;
+}
+
+#ativado a {
+    color: white;
+}
+
+#ativado a:hover {
+    color: rgb(192, 192, 56);
+}
+
+/*-----------------------Media Queries-----------------------*/
+
+
+@media (min-width: 200px) and (max-width: 320px) {
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 190px;
+    }
+
+    .links-navbar ul {
+        height: 29px;
+    }
+
+    .nav-list li {
+        letter-spacing: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .nav-list li a {
+        padding: 5px 7px;
+        border-top: 0px;
+        font-weight: 400;
+        font-size: smaller;
+    }
+
+    .nav-list li {
+        white-space: nowrap;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 600px) {
+
+    nav {
+        height: 15vh;
+    }
+
+    .logo {
+        width: 190px;
+    }
+
+    .links-navbar ul {
+        height: 29px;
+    }
+
+    .nav-list li {
+        letter-spacing: 0px;
+        margin-left: 4px;
+        margin-right: 4px;
+    }
+
+    .nav-list li a {
+        padding: 5px 7px;
+        border-top: 0px;
+        font-weight: 500;
+        font-size: smaller;
+    }
+
+    .nav-list li {
+        white-space: nowrap;
+    }
+
+
+}
+
+@media (min-width: 520px) and (max-width: 920px) {
+
+
+    .logo {
+
+        width: 205px;
+    }
+
+    .links-navbar ul {
+        height: 40px;
+    }
+
+    .nav-list li {
+        letter-spacing: 2px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .nav-list li a {
+        padding: 10px 15px;
+        border-top: 0px;
+        font-weight: 500;
+    }
+
+    .nav-list li {
+        white-space: nowrap;
+    }
+
+}
